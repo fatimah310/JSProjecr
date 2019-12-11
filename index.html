@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+      <div class="jumbotron">    
+        <h2 class="header"> Search Recipes by Ingredients</h2>
+        <input type="text" id="ingredent" >
+        <button type="button" class="btn btn-info" id="search">
+        <span class="glyphicon glyphicon-search"></span> Search
+        </button>       
+        <h3> you can add more than one ingredient, just seprate them by "," </h3>
+        <h4>Example: "egg, salt" will give all recepies containing egg and salt. </h4>
+      </div>
+        <table id="recipyTable" class="recipyTableStyle table-condensed">
+
+        <thead class="titleoftabe">
+                <tr>
+                  <th>Recipes Title</th>
+                  <th> Image of Recipes</th>
+                  <th> Time </th>
+                  <th> link of Recipes</th>
+                </tr>
+              </thead>
+            </table>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="main.js" type="text/javascript" charset="utf-8" async defer></script>  
+</body>
+</html>
